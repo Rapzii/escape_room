@@ -1,0 +1,86 @@
+body.escaperoom2 {
+    font-family: Arial;
+    background-image: url('img_escaperoom/escaperoom_skattejakt.png');
+    background-size: cover; /* hjelper med å dekke hele sjermen */
+    background-position: center; /* putter biledet i midten  */
+    background-repeat: no-repeat; /* stopper bildet med å ikke komme 2 ganger altså repeate */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* sånn at den dekker hele veien nede av sjermen */
+    background-color: #000000;
+    }
+
+
+
+.container {
+    padding: 20px;
+}
+
+.puzzle {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #70cb0056;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+}
+.puzzle input {
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    margin-top: 10px;
+}
+.puzzle button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ffcc00;
+}
+
+
+
+
+
+
+
+body.escaperoom1 {
+    background-color: #000; /* Hel svart bakgrunn */
+    color: #000; /* Tekstfarge er også svart (usynlig) */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; /* Viser at siden er klikkbar */
+}
+.Usynlig-lenke {
+    color: transparent; /* Gjør lenketeksten usynlig */
+    text-decoration: none; /* Fjerner understrek */
+    font-size: 5px;
+}
+.Usynlig-lenke:hover {
+    color: #fff; /* Gjør lenketeksten synlig ved hover (valgfritt) */
+}
+
+.tittel_escaperoom2 {
+
+color: white;
+margin-bottom: 20%;
+
+}
+
+
+
+
+
+
+
